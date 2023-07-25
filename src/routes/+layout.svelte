@@ -29,6 +29,11 @@
 	});
 </script>
 
+<svelte:head>
+	<link rel="icon" href="favicon.ico" />
+	<meta name="author" content="Front-end team" />
+</svelte:head>
+
 <header class="header">
 	<base href="/BookClub-app/" />
 	<img src={logo} class="logo" alt="The logo" />
